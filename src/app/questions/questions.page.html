@@ -1,0 +1,41 @@
+<ion-content class = "card">
+    <ion-card *ngFor="let q of current_q.question" class = "card_question">
+      <ion-card-header style = "color: white" *ngIf = "end == false">
+        {{q}}
+      </ion-card-header>
+
+      <div *ngIf= "resposta == 'false'">
+      <div *ngIf = "end == false">
+      <ion-button class = "ion-text-wrap menu_button" *ngFor = "let o of current_q.options" expand = "block" (click) = "results(o)" [disabled] = "true">
+        <p>{{o.description}}</p>
+      </ion-button>
+      <p *ngFor= "let a of current_q.answer" class = "comentarios">Resposta: {{a}}</p>
+      <p *ngFor= "let c of current_q.comments" class = "comentarios">Explicação: {{c}}</p>
+      <p *ngFor = "let s of current_q.sources" class = "comentarios">Fonte: {{s.name}}</p>
+      </div>
+    </div>
+      <div *ngIf= "resposta == 'stay'">
+        <div *ngIf = "end == false">
+      <ion-button class = "ion-text-wrap menu_button" *ngFor = "let o of current_q.options" expand = "block" (click) = "results(o)">
+        <p>{{o.description}}</p>
+      </ion-button>
+      </div>
+    </div>
+      <div *ngIf = "end == true">
+
+        <p class = "comentarios">Parabéns por concluir esse tema!</p>
+      </div>
+    </ion-card>
+  <div *ngIf= "resposta == 'true'">
+    <p class = "comentarios" style = "text-align: center;">Parabéns, você acertou!</p>
+      <ion-button (click) = "continuar()" expand="block">
+        <p>Continuar</p>
+      </ion-button>
+    </div>
+<div *ngIf= "resposta == 'false'">
+  <ion-button (click) = "continuar()" expand="block">
+    <p>Continuar</p>
+  </ion-button>
+  </div>
+<ion-button expand = "block" routerLink = "/menu">Voltar</ion-button>
+</ion-content>

@@ -1,0 +1,31 @@
+ul.dp-menu{
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.opcoes{
+  list-style-type: none;
+  padding: 0;
+  display: block;
+  transform: translate(0, -12px);
+}
+
+ul.dp-menu ul.temas{
+  list-style-type: none;
+  padding: 0;
+  display: none;
+  left: 0;
+}
+
+ul.dp-menu:hover ul.temas{
+  display: block;
+}
+
+ion-text-wrap{
+  line-height: 100px;
+}
+
+.menu_button{
+  height: 45px;
+  line-height: 40px;
+}

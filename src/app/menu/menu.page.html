@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="tittle">
+      <figure><img src="assets/icon/logo.png"></figure>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title><figure><img src="assets/icon/logo.png"></figure></ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ul class = "dp-menu">
+    <li><ion-button expand = "block">Temáticas</ion-button></li>
+      <ul class = "temas">
+        <li><ion-button expand = "block" (click) = "b_t_1()" class = 'ion-text-wrap menu_button'>Agente Comunitário em Saúde: Aspectos Históricos e legais</ion-button></li>
+        <li><ion-button expand = "block" (click) = "b_t_2()" class = "ion-text-wrap menu_button">Redes de Atenção à saúde (RAS)</ion-button></li>
+        <li><ion-button expand = "block" (click) = "b_t_3()" class = "ion-text-wrap menu_button">Promoção da Saúde e Cuidado no Âmbito da Atenção Básica de Saúde</ion-button></li>
+        <li><ion-button expand = "block" (click) = "b_t_4()" class = "ion-text-wrap menu_button">Atuação do ACS no Âmbito da linha de Cuidado em Atenção Psicossocial</ion-button></li>
+        <li><ion-button expand = "block" (click) = "b_t_5()" class = "ion-text-wrap menu_button">Atuação do ACS no Âmbito da linha de Cuidado Urgência e Emergência</ion-button></li>
+        <li><ion-button expand = "block" (click) = "b_t_6()" class = "ion-text-wrap menu_button">Atuação do ACS no Âmbito da linha de Cuidado em Doenças Crônicas</ion-button></li>
+        <li><ion-button expand = "block" (click) = "b_t_7()" class = "ion-text-wrap menu_button">Atuação do ACS no Âmbito da linha de Cuidado em Saúde Materna, Neonatal e Lactente</ion-button></li>
+      </ul>
+  </ul>
+  <ul class = "opcoes">
+    <li><ion-button routerLink = "/resultados" expand = "block">Meus Resultados</ion-button></li>
+    <li><ion-button routerLink = "/home" expand="block">Voltar</ion-button></li>
+  </ul>
+</ion-content>

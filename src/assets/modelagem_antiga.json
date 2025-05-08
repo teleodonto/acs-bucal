@@ -1,0 +1,52 @@
+{
+	"questions": [
+	{
+		"question": [
+			"O profissional Agente Comunitário em Saúde desenvolve as seguintes ações no SUS, exceto:"
+		],
+		"options":[
+			"promoção da saúde",
+			"prevenção de doenças",
+			"atividades educativas",
+			"procedimentos clínicos"
+		],
+		"comments":[
+			"Compete ao ACS atuar de forma interdisciplinar na identificação precoce das vulnerabilidades no espaço domiciliar ou coletivo, articulando ações de promoção, prevenção e educação em saúde, fortalecendo a coordenação do cuidado."
+		],
+		"answer":4,
+		"sources":[
+		{
+		"authors": [],
+		"name": "Brasil. Ministério da Saúde (2016). Diretrizes para capacitação de Agentes Comunitários de Saúde em linhas de cuidado."
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"A atuação do ACS contribui para:"
+		],
+		"options":[
+      "Ampliação do acesso da população às ações e serviços de saúde",
+      "Redução do acesso da população às ações e serviços de saúde",
+      "Redução no número de famílias cadastradas na área de abrangência da ESF",
+      "Desapreço aos saberes populares e a participação popular no SUS"
+		],
+		"comments":[
+			"O ACS é um profissional que atua na educação em saúde, participando da organização do trabalho coletivo, incluindo o planejamento e a execução das ações interdisciplinares e a educação popular em saúde."
+		],
+		"answer":1,
+		"sources":[
+		{
+		"authors": [],
+		"name": "Brasil. Ministério da Saúde (2016). Diretrizes para capacitação de Agentes Comunitários de Saúde em linhas de cuidado."
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	}
+]
+}

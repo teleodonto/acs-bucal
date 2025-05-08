@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="tittle">
+      <figure><img src="assets/icon/logo.png"></figure>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title><figure><img src="assets/icon/logo.png"></figure></ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <p class="login_"><strong>LOGIN</strong>
+  </p>
+  <form [formGroup]="loginform">
+  <div style = "text-align: center; color: white">
+    <input
+      class = "input_cpf"
+      type = "text"
+      clearInput
+      style = "color: rgb(255, 255, 255);background-color: rgb(20, 69, 128);"
+      name = "cpf"
+      id = "cpf"
+      mask = "000.000.000-00"
+      expand = "block"
+      placeholder="CPF"
+      formControlName = 'cpf_login'
+    />
+    <p><label class = "login_" style = "font-family: Roboto;">
+    </label></p>
+  </div>
+</form>
+
+  <ion-button (click) = 'entrar()' expand="block" (click) = 'validator_()'>Entrar</ion-button>
+
+  <ion-button (click) = 'cadastrar()' expand = 'block'>Cadastrar</ion-button>
+</ion-content>
+
+  <!-- <div id="container">
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div> -->
+

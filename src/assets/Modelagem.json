@@ -1,0 +1,590 @@
+{
+	"Tematica_1": [
+	{
+		"question": [
+			"O profissional Agente Comunitário em Saúde desenvolve as seguintes ações no SUS, exceto:"
+		],
+		"options":[
+			{"description" : "promoção da saúde", "isright": false},
+			{"description" : "prevenção de doenças", "isright": false},
+			{"description" : "atividades educativas", "isright" : false},
+			{"description" : "procedimentos clínicos", "isright" : true}
+		],
+		"comments":[
+			"Compete ao ACS atuar de forma interdisciplinar na identificação precoce das vulnerabilidades no espaço domiciliar ou coletivo, articulando ações de promoção, prevenção e educação em saúde, fortalecendo a coordenação do cuidado."
+		],
+		"answer":["D"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "Brasil. Ministério da Saúde (2016). Diretrizes para capacitação de Agentes Comunitários de Saúde em linhas de cuidado."
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"A atuação do ACS contribui para:"
+		],
+		"options":[
+{"description" : "Ampliação do acesso da população às ações e serviços de saúde", "isright": true},
+			{"description" : "Redução do acesso da população às ações e serviços de saúde", "isright": false},
+			{"description" : "Redução no número de famílias cadastradas na área de abrangência da ESF", "isright" : false},
+			{"description" : "Desapreço aos saberes populares e a participação popular no SUS", "isright" : false}
+		],
+		"comments":[
+			"O ACS é um profissional que atua na educação em saúde, participando da organização do trabalho coletivo, incluindo o planejamento e a execução das ações interdisciplinares e a educação popular em saúde."
+		],
+		"answer":["A"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "Brasil. Ministério da Saúde (2016). Diretrizes para capacitação de Agentes Comunitários de Saúde em linhas de cuidado."
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"A criação da profissão de ACS ocorreu através da Lei n. 10.507 no ano de:"
+		],
+		"options":[
+{"description" : "2005", "isright": false},
+			{"description" : "2004", "isright": false},
+			{"description" : "2003", "isright" : false},
+			{"description" : "2002", "isright" : true}
+		],
+		"comments":[
+			"Essa Lei foi revogada pela lei 11.350, de 2006, que passou então a reger as atividades dos agentes comunitários de saúde e dos agentes comunitários de endemias no âmbito no âmbito do SUS. No decorrer dos anos, essa lei sofreu algumas alterações pela Lei 13.595/2018, que reformula as atribuições, a jornada, as condições de trabalho, indenização de transporte e o grau de formação profissional dos ACS e ACE."
+		],
+		"answer":["D"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "Brasil. Ministério da Saúde (2016). Diretrizes para capacitação de Agentes Comunitários de Saúde em linhas de cuidado."
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"Não está incluída nas ações desenvolvidas pela equipe de saúde bucal (ESB) da Estratégia da Saúde da família (ESF):"
+		],
+		"options":[
+{"description" : "Visitas a pessoas acamadas ou com dificuldades de locomoção", "isright": false},
+			{"description" : "Educação em saúde bucal", "isright": false},
+			{"description" : "Tratamento ortodôntico em crianças", "isright" : true},
+			{"description" : "Pré-Natal odontológico", "isright" : false}
+		],
+		"comments":[
+			"Os Centros de Especialidades Odontológicas estão preparados para oferecer à população, no mínimo, os seguintes serviços: Diagnóstico bucal, com ênfase no diagnóstico e detecção do câncer de boca; tratamento periodontal; Cirurgia menores; tratamento endodôntico e Atendimento a portadores de necessidades especiais."
+		],
+		"answer":["C"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "BRASIL; MINISTÉRIO DA SAÚDE. Portaria nº 599/GM, de 23 de março de 2006. Define a implantação de Centros de Especialidades Odontológicas (CEOs) e de Laboratórios Regionais de Próteses Dentárias (LRPDs) e estabelece critérios, normas e requisitos para seu credenciamento. Diário Oficial da União, 2006."
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"O sigilo ético no registro de dados de nascimento, óbitos, doenças e outros agravos à saúde está explicitado na seguinte norma:"
+		],
+		"options":[
+{"description" : "PNAB/2017", "isright": true},
+			{"description" : "Lei 13.595/2018 (Lei Ruth Brilhante)", "isright": false},
+			{"description" : "Lei 11.350/2006", "isright" : false},
+			{"description" : "Lei 8080/1990", "isright" : false}
+		],
+		"comments":[
+			"Na ESF, princípios éticos como privacidade e confidencialidade das informações devem nortear a rotina de trabalho dos ACS. O dever de resguardar sigilo das informações constitui uma obrigação ética inerente ao trabalho profissional. O ACS deve respeitar a decisão do usuário de não expor sua   privacidade e intimidade ou de outros membros sua família."
+		],
+		"answer":["A"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "Brasil. Ministério da Saúde (2017). Política Nacional da Atenção Básica (PNAB) "
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	}
+],
+"Tematica_2" : [
+	{
+		"question": [
+			"A Atenção Primaria em Saúde (APS) é constituída por:"
+		],
+		"options":[
+{"description" : "Unidades básicas de saúde (UBS)", "isright": true},
+			{"description" : "UPAS, Centros de especialidades médicas e odontológicas e hospitais de baixa e média complexidade", "isright": false},
+			{"description" : "Hospitais de alta complexidade, que demandam tecnologia de ponta.", "isright" : false},
+			{"description" : "Sistemas logísticos, como Centrais de Regulação", "isright" : false}
+		],
+		"comments":[
+			"As Redes de Atenção à Saúde (RAS) são um conjunto de ações e serviços integrados, divididos em níveis de acordo com sua complexidade tecnológica. Assim temos a atenção primária, que são as unidades básicas de saúde, porta de entrada no SUS. A atenção secundária, formada pelas UPA e Centros de Especialidades e a atenção terciaria com unidades hospitalares de maior densidade tecnológica."
+		],
+		"answer":["A"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "Brasil. Ministério da Saúde (2017). Portaria de Consolidação n.3 de 28/09/2017"
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"São Princípios da RAS:  Universalidade, Integralidade e:"
+		],
+		"options":[
+{"description" : "Necessidade", "isright": false},
+			{"description" : "Equidade", "isright": true},
+			{"description" : "Diversidade", "isright" : false},
+			{"description" : "Sustentabilidade", "isright" : false}
+		],
+		"comments":[
+			"De acordo com a PNAB/2017:  Universalidade possibilita o acesso universal e contínuo a serviços de saúde de qualidade e resolutivos, enquanto que a Integralidade é o conjunto de serviços executados pela equipe de saúde que atendam às necessidades da população adscrita nos campos do cuidado, da promoção e manutenção da saúde, da prevenção de doenças e agravos, da cura, da reabilitação, redução de danos e dos cuidados paliativos."
+		],
+		"answer":["B"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "MINISTRO, B. M. da S. G. do. Portaria no 2.436, de 21 de setembro de 2017."
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"São diretrizes da Estratégia Saúde da Família, excerto"
+		],
+		"options":[
+{"description" : "População adscrita", "isright": false},
+			{"description" : "Participação da comunidade", "isright": false},
+			{"description" : "Cuidado centrado na doença", "isright" : true},
+			{"description" : "Territorialização", "isright" : false}
+		],
+		"comments":[
+			"As diretrizes a serem operacionalizadas pela Atenção Básica são Regionalização e Hierarquização, Territorialização, População adscrita, Cuidado centrado na pessoa, Resolutividade, Longitudinalidade do cuidado, Coordenação do cuidado, Ordenação da rede e Participação da comunidade."
+		],
+		"answer":["C"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "Brasil. Ministério da Saúde (2017). Política Nacional da Atenção Básica (PNAB)"
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"As Unidades de Ponto Atendimento 24hs (UPA) fazem parte da rede de atenção às Urgências, concentrando atendimentos em que nível de atenção?"
+		],
+		"options":[
+{"description" : "Nível Primário", "isright": false},
+			{"description" : "Nível secundário", "isright": true},
+			{"description" : "Nível terciário", "isright" : false},
+			{"description" : "Nível quaternário", "isright" : false}
+		],
+		"comments":[
+			"As UPAS 24hs, atuam em serviços de urgências e emergências, no atendimento de situações de média e baixa complexidade, onde os casos dependendo da gravidade, são estabilizados e após encaminhados as UBS ou direcionados a hospitais de maior complexidade."
+		],
+		"answer":["B"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "Brasil. Ministério da Saúde (2017). Portaria de Consolidação n.3 de 28/09/2017"
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"Qual dos seguintes serviços não é realizado pelo Centro de Especialidades Odontológicas (CEO)?"
+		],
+		"options":[
+{"description" : "Endodontia", "isright": false},
+			{"description" : "Cirurgia oral menor", "isright": false},
+			{"description" : "Atendimento a portadores de necessidades especiais", "isright" : false},
+			{"description" : "Diagnóstico e tratamento do câncer bucal", "isright" : true}
+		],
+		"comments":[
+			"O CEO são estabelecimentos de saúde bucal, classificados como clínica/ambulatório de especialidade que oferece os seguintes serviços: Diagnóstico bucal, endodontia, atendimentos a pessoas com deficiência, cirurgia oral menor. Em 2010, os procedimentos de ortodontia e ortopedia e implante dentário   foram incorporados ao CEO."
+		],
+		"answer":["D"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "Brasília, DF. Ministério da Saúde (2022).  Passo a passo da Política Nacional de Saúde Bucal"
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"Em relação a assistência hospitalar, é incorreto afirmar:"
+		],
+		"options":[
+{"description" : "Os hospitais atuarão de forma articulada à atenção básica, que tem a função coordenadora do cuidado dentro das redes de assistência à saúde.", "isright": false},
+			{"description" : "Durante as internações, os usuários, especialmente os idosos, gestantes, crianças, adolescentes e indígenas, possuem direito a acompanhante 24 (vinte e quatro) horas por dia", "isright": false},
+			{"description" : "Tem caráter multiprofissional e interdisciplinar", "isright" : false},
+			{"description" : "Acesso livre por ordem de chegada na unidade hospitalar", "isright" : true}
+		],
+		"comments":[
+			"As Portas Hospitalares de Urgência e Emergência deverão implementar acolhimento e protocolo de classificação de risco e vulnerabilidades específicas."
+		],
+		"answer":["D"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "Brasil. Ministério da Saúde (2017). Portaria de Consolidação Nº 2, de 28 de setembro de 2017"
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	}
+],
+"Tematica_3" : [
+	{
+		"question": [
+			"A cárie é uma doença crônica comum em crianças em fase de aleitamento. Sobre a cárie da primeira infância, qual alternativa abaixo está incorreta:"
+		],
+		"options":[
+{"description" : "É também conhecida cárie de mamadeira.", "isright": false},
+			{"description" : "O consumo de alimento açucarados ou o hábito de amamentação noturna contribui para o aparecimento e progressão da doença.", "isright": false},
+			{"description" : "Acomete bebês e crianças em idade pré-escolar, logo uma a dieta saudável e a higiene dos dentes são maneiras eficientes de prevenção à cárie.", "isright" : false},
+			{"description" : "O uso de antibióticos na infância é a principal causa do desenvolvimento da doença", "isright" : true}
+		],
+		"comments":[
+			"O fluxo de saliva diminuído durante o sono, compromete o   processo de remineralização dos dentes e a função de autolavagem e limpeza das superfícies dentárias, aumentando o risco de cárie precoce. Medidas preventivas como educar e conscientizar os pais quanto aos hábitos alimentares e de higienização oral, podem melhorar a saúde bucal da criança."
+		],
+		"answer":["D"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "BERALDI, M. I.; SHULTZ MARTINS PIO, M.; DALLEDONE CODASCKI, M.; GUERRART PORTUGAL, M. E.; VIDA CASSI BETTEGA, P. Cárie na primeira infância: Uma revisão de literatura. Revista Gestão e Saúde. 2021."
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"A doença periodontal é uma patologia inflamatória multifatorial, que tem como principal fator etiológico:"
+		],
+		"options":[
+{"description" : "Maus hábitos alimentares", "isright": false},
+			{"description" : "tabagismo", "isright": false},
+			{"description" : "Placa bacteriana ou biofilme", "isright" : true},
+			{"description" : "Fatores genéticos", "isright" : false}
+		],
+		"comments":[
+			"A placa bacteriana se adere firmemente às superfícies dentárias, contendo grandes quantidades de microrganismos, sendo a higienização mecânica por meio de escovas dentárias e dentifrício com flúor é o método mais eficaz para o controle da placa dentária."
+		],
+		"answer":["C"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "DE MENEZES, M. L. F. V.; DE MACEDO, Y. V. G.; FERRAZ, N. M. P.; MATOS, K. de F.; PEREIRA, R. O.; FONTES, N. M.; BATISTA, M. I. H. de M.; PAULINO, M. R. A importância do controle do biofilme dentário: uma revisão da literatura | Revista Eletrônica Acervo Saúde. v. Sup.n.55, 15 ago. 2020. "
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	},
+	{
+		"question": [
+			"São fatores etiológicos do câncer bucal:"
+		],
+		"options":[
+{"description" : "hábitos alimentares, exposição à radiação solar", "isright": false},
+			{"description" : "lesões cariosas, tabagismo e etilismo", "isright": false},
+			{"description" : "Tabagismo, etilismo, e exposição à radiação solar", "isright" : true},
+			{"description" : "Flúor, lesões cariosas e tabagismo, deficiência imunológica", "isright" : false}
+		],
+		"comments":[
+			"O câncer bucal tende a acometer o sexo masculino de forma mais intensa e indivíduos com idade superior a 50 anos, localizando -se, preferencialmente, no assoalho da boca e na língua."
+		],
+		"answer":["C"],
+		"sources":[
+		{
+		"authors": [],
+		"name": "SANT’ANA, L. G.; RIBEIRO, A. B.; FORTES, C. V.; LACERDA, A. B. de; RIBEIRO, A. B. A IMPORTÂNCIA DO CONHECIMENTO DOS FATORES DE RISCO E DO DIAGNÓSTICO PRECOCE NA PREVENÇÃO DO DESENVOLVIMENTO DO CÂNCER BUCAL: UMA REVISÃO DE LITERATURA. Facit Business and Technology Journal, v. 1, n. 25, 6 maio 2021."
+		}
+		],
+		"origin" : [],
+		"role" : [],
+		"banca": []
+	}
+	],
+  "Tematica_4" : [
+    {
+      "question": [
+        "Disfunção oral caracterizada pelo ranger e apertar os dentes, podendo ocasionar desgastes ou fraturas das estruturas dentárias, é a descrição de qual das condições abaixo:"
+      ],
+      "options":[
+{"description" : "Bruxismo", "isright": true},
+			{"description" : "Gengivite", "isright": false},
+			{"description" : "Disfunção da ATM", "isright" : false},
+			{"description" : "estresse", "isright" : false}
+      ],
+      "comments":[
+        "Os tratamentos são variados e depende de cada situação. Algumas terapias disponíveis são: Placas de mordida, ajuste oclusal, toxina botulínica, terapia medicamentosa com antidepressivos e analgésicos e fisioterapia e terapia com psicólogos."
+      ],
+      "answer":["A"],
+      "sources":[
+      {
+      "authors": [],
+      "name": "LIMA, M. C. G. de; SANTOS, A. P. C. D.; FILHO, E. O. N.; BEZERRA, R. L.; FIGUEIREDO, R. J. A. A parafuncionalidade do bruxismo: da intervenção terapêutica multiprofissional ao uso da placa miorrelaxante. Brazilian Journal of Health Review.2020."
+      }
+      ],
+      "origin" : [],
+      "role" : [],
+      "banca": []
+    },
+    {
+      "question": [
+        "Cefaleias, ruídos articulares, tonturas, desvios mandibulares, dor na ATM (Articulação temporo-mandibular), restrições dos movimentos mandibulares e dor nos músculos da mastigação, da cabeça e do pescoço, são sinais e sintomas de:"
+      ],
+      "options":[
+{"description" : "Doença periodontal", "isright": false},
+			{"description" : "Disfunção da ATM ou disfunção temporomandibular (DTM)", "isright": true},
+			{"description" : "Estresse", "isright" : false},
+			{"description" : "Cárie", "isright" : false}
+      ],
+      "comments":[
+        "A DTM pode decorrer de fatores anatômicos, neuromusculares, psicológicos e oclusais, por isso necessita ser tratada por uma equipe multiprofissional formada por cirurgião-dentista, psicólogo, fisioterapeuta, fonoaudiólogo e médico."
+      ],
+      "answer":["B"],
+      "sources":[
+      {
+      "authors": [],
+      "name": "M. A. S. G.; FILHO, A. A. de O. Disfunção temporomandibular: revisão sistematizada. ARCHIVES OF HEALTH INVESTIGATION, v. 9, n. 6, p. 5c70–575, 10 out. 2020."
+      }
+      ],
+      "origin" : [],
+      "role" : [],
+      "banca": []
+    },
+    {
+      "question": [
+        "A perda parcial ou total dos dentes pode ocasionar alterações bucofaciais como:"
+      ],
+      "options":[
+{"description" : "Bruxismo e Disfunção da articulação temporomandibular (ATM)", "isright": true},
+			{"description" : "Diabetes e problemas de oclusão", "isright": false},
+			{"description" : "Herpes labial e baixa auto estima", "isright" : false},
+			{"description" : "Problemas cardíacos e dificuldades de fonação", "isright" : false}
+      ],
+      "comments":[
+        "As reabilitações protéticas podem ser realizadas por meio de implantes, prótese fixas ou próteses removíveis. A confecção de próteses dentárias quando mal executadas podem induzir ou agravar desordens na oclusão, lesões em tecidos moles e disfunção na ATM"
+      ],
+      "answer":["A"],
+      "sources":[
+      {
+      "authors": [],
+      "name": "PARDIM, N. C. C.; CUNHA, D. P. Disfunção temporomandibular em pacientes desdentados reabilitados com próteses totais. Revista de psicologia. 2019."
+      }
+      ],
+      "origin" : [],
+      "role" : [],
+      "banca": []
+    }
+  ],
+  "Tematica_5" : [
+    {
+      "question": [
+        "Em situações de trauma, onde há fratura de dente permanente, qual a melhor conduta?"
+      ],
+      "options":[
+{"description" : "Procurar o fragmento do dente quebrado e acondiciona-lo num recipiente limpo contendo leite, soro e procurar imediatamente o dentista.", "isright": true},
+			{"description" : "Não é preciso levar o fragmento pois a melhor opção é a restauração em resina fotopolimerizável", "isright": false},
+			{"description" : "Não é preciso levar o fragmento em casos de fraturas dentárias, o recomendado é extrair o dente.", "isright" : false}      ],
+      "comments":[
+        "A técnica de colagem do fragmento dentária com adesivos dentários, se apresenta como a melhor opção de restauração do dente fraturado, por ser simples, conservadora e permitir o mínimo desgaste da estrutura dentária proporcionando resultados mais estéticos."
+      ],
+      "answer":["A"],
+      "sources":[
+      {
+      "authors": [],
+      "name": "SANTOS, A. S. dos; COSTA, K. N. B. da; BRAGA, T. M. B.; FERREIRA, M. C. COLAGEM DE FRAGMENTO EM DENTE PERMANENTE TRAUMATIZADO: RELATO DE CASO. Revista da Faculdade de Odontologia da UFBA.2021"
+      }
+      ],
+      "origin" : [],
+      "role" : [],
+      "banca": []
+    },
+    {
+      "question": [
+        "Quanto ao acolhimento na unidade básica de saúde, qual das situações odontológicas é considerada urgência?"
+      ],
+      "options":[
+{"description" : "Remoção de suturas", "isright": false},
+			{"description" : "Exodontia sem sintomatologia dolorosa", "isright": false},
+			{"description" : "Profilaxia e aplicação tópica de flúor", "isright" : false},
+			{"description" : "Pulpite com dor intensa e espontânea", "isright" : true}
+      ],
+      "comments":[
+        "Para pulpite e abcessos, além da prescrição medicamentosa sistêmica, deve-se proceder quando possível a realização de procedimentos locais como acesso para drenagem  ou curativo de demora."
+      ],
+      "answer":["D"],
+      "sources":[
+      {
+      "authors": [],
+      "name": "NÚCLEO DE TELESSAÚDE AMAZONAS. Como realizar o acolhimento e classificação de risco para o tratamento odontológico de urgência na atenção primária à saúde? – BVS Atenção Primária em Saúde. 2021."
+      }
+      ],
+      "origin" : [],
+      "role" : [],
+      "banca": []
+    },
+    {
+      "question": [
+        "Dor lancinante, gengivas ou rosto inchados, dente hígido e com mobilidade, são sinais e sintomas de abcesso periodontal, qual a melhor conduta para o caso:"
+      ],
+      "options":[
+{"description" : "Encaminhar para o dentista da ESF, para drenagem e prescrição de antibiótico", "isright": true},
+			{"description" : "Encaminhar para unidade Hospitalar", "isright": false},
+			{"description" : "Encaminhar para o CEO para tratamento endodôntico", "isright" : false},
+			{"description" : "Não é necessário tratamento, pois tem remissão após alguns dias", "isright" : false}
+      ],
+      "comments":[
+        "O tratamento do abscesso periodontal consiste no alívio da dor, controle da infecção por meio de antibióticos e drenagem   do abcesso dentário.   Após a remissão da infecção, deve-se proceder a raspagem para remoção dos tártaros, e em alguns casos poderá ser necessário a extração do dente afetado."
+      ],
+      "answer":["A"],
+      "sources":[
+      {
+      "authors": [],
+      "name": "JANUÁRIO, M. V. S.; DA SILVA, E. L.; VASCONCELOS, M. G.; VASCONCELOS, R. G. ABORDAGEM ODONTOLÓGICA DOS PROCESSOS INFECCIOSOS PURULENTOS MAXILO FACIAIS. SALUSVITA, Bauru, v. 39, n. 2, p. 523–548, 2020. "
+      }
+      ],
+      "origin" : [],
+      "role" : [],
+      "banca": []
+    }
+  ],
+  "Tematica_6" : [
+    {
+      "question": [
+        "As doenças crônicas não transmissíveis (DCNT) constituem o maior problema de saúde em nível global e a principal causa de morte no mundo. Qual das alternativas não pertence ao grupo das DCNT:"
+      ],
+      "options":[
+{"description" : "Câncer", "isright": false},
+			{"description" : "Diabetes", "isright": false},
+			{"description" : "AIDS", "isright" : true},
+			{"description" : "Doenças cardiovasculares", "isright" : false}
+      ],
+      "comments":[
+        "Os principais fatores de risco para DCNT são tabagismo, alcoolismo, alimentação não saudável, inatividade física e excesso de peso."
+      ],
+      "answer":["C"],
+      "sources":[
+      {
+      "authors": [],
+      "name": "BRASIL. Ministério da Saúde. Estratégia para o cuidado da pessoa com doença crônica. Brasília: Ministério da Saúde, 2014. (Cadernos de Atenção Básica, n. 35)"
+      }
+      ],
+      "origin" : [],
+      "role" : [],
+      "banca": []
+    },
+    {
+      "question": [
+        "Sobre doenças crônicas, quais das ações abaixo podem ser realizadas pelo ACS"
+      ],
+      "options":[
+{"description" : "Prevenir, diagnosticar e tratar precocemente as possíveis complicações decorrentes das doenças crônicas", "isright": false},
+			{"description" : "Prescrever medicações para controle da doença", "isright": false},
+			{"description" : "Referenciar para a atenção especializada os casos decorrentes de complicações da doença crônica", "isright" : false},
+			{"description" : "Promover hábitos de vida saudáveis com relação à alimentação e à atividade física, como ações de prevenção às doenças crônicas", "isright" : true}
+      ],
+      "comments":[
+        "O ACS pode atuar reportando a equipe médica fatores de risco apresentados no espaço domiciliar, contribuindo com a detecção precoce das doenças crônicas."
+      ],
+      "answer":["D"],
+      "sources":[
+      {
+      "authors": [],
+      "name": "Brasil. Ministério da Saúde (2016). Diretrizes para capacitação de Agentes Comunitários de Saúde em linhas de cuidado."
+      }
+      ],
+      "origin" : [],
+      "role" : [],
+      "banca": []
+    }
+],
+"Tematica_7" : [
+  {
+    "question": [
+      "O Pré-natal odontológico deve incluir, excerto: "
+    ],
+    "options":[
+{"description" : "Orientações sobre hábitos alimentares", "isright": false},
+			{"description" : "Diagnóstico de lesões cariosas", "isright": false},
+			{"description" : "Orientações educativo-preventivas sobre saúde bucal", "isright" : false},
+			{"description" : "Prescrição de suplementos de flúor", "isright" : true}
+    ],
+    "comments":[
+      "O pré-natal odontológico tem o objetivo de recuperar a saúde bucal da gestante, além de capacita-la ao auto cuidado oral, bem como para o cuidado bucal do seu futuro filho, mediante adoção de práticas saudáveis na alimentação e na higiene oral. As práticas educativas podem englobar temas como o benefício do aleitamento, uso racional do creme dental com flúor, mamadas noturnas e consumo de açucares na dieta."
+    ],
+    "answer":["D"],
+    "sources":[
+    {
+    "authors": [],
+    "name": "Dusilek,l.G.Z (2020). O acesso das gestantes ao pré-natal odontológico no município do Rio de Janeiro: o caso da área programática 3.2. 2020.Tese de Doutorado"
+    }
+    ],
+    "origin" : [],
+    "role" : [],
+    "banca": []
+  },
+  {
+    "question": [
+      "Sobre aleitamento materno, marque a alternativa falsa:"
+    ],
+    "options":[
+{"description" : "O primeiro leite produzido pela mãe é o colostro, que é rico em nutrientes e anticorpos", "isright": false},
+			{"description" : "A amamentação auxilia na formação da musculatura e ossos da face", "isright": false},
+			{"description" : "O leite materno não provoca cárie", "isright" : true},
+			{"description" : "A amamentação natural deve ser exclusiva até os 6 meses de vida do bebê", "isright" : false}
+    ],
+    "comments":[
+      "A limpeza da cavidade oral pode ser realizada com o auxílio de gaze ou fralda embebida em soro ou água filtrada, após as mamadas. Após a erupção dos primeiros dentinhos, a limpeza poderá ser feita utilizando escovas dentárias pequenas e de cerdas extra macias."
+    ],
+    "answer":["C"],
+    "sources":[
+    {
+    "authors": [],
+    "name": "CASSIMIRO, I. G. V.; SOUZA, P. G. de; RODRIGUES, M. C.; CARNEIRO, G. K. M. A IMPORTÂNCIA DA AMAMENTAÇÃO NATURAL PARA O SISTEMA ESTOMATOGNÁTICO. Uningá Journal,. 2019."
+    }
+    ],
+    "origin" : [],
+    "role" : [],
+    "banca": []
+  }
+]
+}
