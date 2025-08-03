@@ -1,31 +1,109 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title class="tittle">
-      <figure><img src="assets/icon/logo.png"></figure>
+      <figure><img src="assets/icon/logo.png" class="logo fade-in" alt="ACS Bucal Logo" /></figure>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title><figure><img src="assets/icon/logo.png"></figure></ion-title>
-    </ion-toolbar>
-  </ion-header>
-  <ul class = "dp-menu">
-    <li><ion-button expand = "block">Temáticas</ion-button></li>
-      <ul class = "temas">
-        <li><ion-button expand = "block" (click) = "b_t_1()" class = 'ion-text-wrap menu_button'>Agente Comunitário em Saúde: Aspectos Históricos e legais</ion-button></li>
-        <li><ion-button expand = "block" (click) = "b_t_2()" class = "ion-text-wrap menu_button">Redes de Atenção à saúde (RAS)</ion-button></li>
-        <li><ion-button expand = "block" (click) = "b_t_3()" class = "ion-text-wrap menu_button">Promoção da Saúde e Cuidado no Âmbito da Atenção Básica de Saúde</ion-button></li>
-        <li><ion-button expand = "block" (click) = "b_t_4()" class = "ion-text-wrap menu_button">Atuação do ACS no Âmbito da linha de Cuidado em Atenção Psicossocial</ion-button></li>
-        <li><ion-button expand = "block" (click) = "b_t_5()" class = "ion-text-wrap menu_button">Atuação do ACS no Âmbito da linha de Cuidado Urgência e Emergência</ion-button></li>
-        <li><ion-button expand = "block" (click) = "b_t_6()" class = "ion-text-wrap menu_button">Atuação do ACS no Âmbito da linha de Cuidado em Doenças Crônicas</ion-button></li>
-        <li><ion-button expand = "block" (click) = "b_t_7()" class = "ion-text-wrap menu_button">Atuação do ACS no Âmbito da linha de Cuidado em Saúde Materna, Neonatal e Lactente</ion-button></li>
-      </ul>
-  </ul>
-  <ul class = "opcoes">
-    <li><ion-button routerLink = "/resultados" expand = "block">Meus Resultados</ion-button></li>
-    <li><ion-button routerLink = "/home" expand="block">Voltar</ion-button></li>
-  </ul>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="container slide-up">
+    <div class="menu-section">
+      <div class="tematicas-header">
+        <h2 class="section-title">Temáticas</h2>
+        <p class="section-subtitle">Escolha uma temática para começar o quiz</p>
+      </div>
+      
+      <div class="tematicas-list">
+        <ion-button 
+          expand="block" 
+          (click)="b_t_1()" 
+          class="tematica-button"
+        >
+          <div class="button-content">
+            <span class="button-text">Agente Comunitário em Saúde: Aspectos Históricos e legais</span>
+          </div>
+        </ion-button>
+        
+        <ion-button 
+          expand="block" 
+          (click)="b_t_2()" 
+          class="tematica-button"
+        >
+          <div class="button-content">
+            <span class="button-text">Redes de Atenção à saúde (RAS)</span>
+          </div>
+        </ion-button>
+        
+        <ion-button 
+          expand="block" 
+          (click)="b_t_3()" 
+          class="tematica-button"
+        >
+          <div class="button-content">
+            <span class="button-text">Promoção da Saúde e Cuidado no Âmbito da Atenção Básica de Saúde</span>
+          </div>
+        </ion-button>
+        
+        <ion-button 
+          expand="block" 
+          (click)="b_t_4()" 
+          class="tematica-button"
+        >
+          <div class="button-content">
+            <span class="button-text">Atuação do ACS no Âmbito da linha de Cuidado em Atenção Psicossocial</span>
+          </div>
+        </ion-button>
+        
+        <ion-button 
+          expand="block" 
+          (click)="b_t_5()" 
+          class="tematica-button"
+        >
+          <div class="button-content">
+            <span class="button-text">Atuação do ACS no Âmbito da linha de Cuidado Urgência e Emergência</span>
+          </div>
+        </ion-button>
+        
+        <ion-button 
+          expand="block" 
+          (click)="b_t_6()" 
+          class="tematica-button"
+        >
+          <div class="button-content">
+            <span class="button-text">Atuação do ACS no Âmbito da linha de Cuidado em Doenças Crônicas</span>
+          </div>
+        </ion-button>
+        
+        <ion-button 
+          expand="block" 
+          (click)="b_t_7()" 
+          class="tematica-button"
+        >
+          <div class="button-content">
+            <span class="button-text">Atuação do ACS no Âmbito da linha de Cuidado em Saúde Materna, Neonatal e Lactente</span>
+          </div>
+        </ion-button>
+      </div>
+      
+      <div class="action-buttons">
+        <ion-button 
+          routerLink="/resultados" 
+          expand="block" 
+          class="secondary-button"
+        >
+          Meus Resultados
+        </ion-button>
+        
+        <ion-button 
+          routerLink="/home" 
+          expand="block" 
+          class="outline-button"
+        >
+          Voltar
+        </ion-button>
+      </div>
+    </div>
+  </div>
 </ion-content>
+

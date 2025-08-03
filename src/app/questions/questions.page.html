@@ -1,41 +1,103 @@
-<ion-content class = "card">
-    <ion-card *ngFor="let q of current_q.question" class = "card_question">
-      <ion-card-header style = "color: white" *ngIf = "end == false">
-        {{q}}
-      </ion-card-header>
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="tittle">
+      <figure><img src="assets/icon/logo.png" class="logo fade-in" alt="ACS Bucal Logo" /></figure>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
 
-      <div *ngIf= "resposta == 'false'">
-      <div *ngIf = "end == false">
-      <ion-button class = "ion-text-wrap menu_button" *ngFor = "let o of current_q.options" expand = "block" (click) = "results(o)" [disabled] = "true">
-        <p>{{o.description}}</p>
-      </ion-button>
-      <p *ngFor= "let a of current_q.answer" class = "comentarios">Resposta: {{a}}</p>
-      <p *ngFor= "let c of current_q.comments" class = "comentarios">Explicação: {{c}}</p>
-      <p *ngFor = "let s of current_q.sources" class = "comentarios">Fonte: {{s.name}}</p>
-      </div>
-    </div>
-      <div *ngIf= "resposta == 'stay'">
-        <div *ngIf = "end == false">
-      <ion-button class = "ion-text-wrap menu_button" *ngFor = "let o of current_q.options" expand = "block" (click) = "results(o)">
-        <p>{{o.description}}</p>
-      </ion-button>
-      </div>
-    </div>
-      <div *ngIf = "end == true">
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="container slide-up">
+    <div class="questions-section">
+      
+      <!-- Question Card - Layout Original Mantido -->
+      <ion-card *ngFor="let q of current_q.question" class="question-card">
+        <ion-card-header *ngIf="end == false" class="question-header">
+          <h3 class="question-text">{{q}}</h3>
+        </ion-card-header>
 
-        <p class = "comentarios">Parabéns por concluir esse tema!</p>
+        <!-- Options when question is active -->
+        <div *ngIf="resposta == 'stay' && end == false" class="options-container">
+          <ion-button 
+            *ngFor="let o of current_q.options" 
+            expand="block" 
+            (click)="results(o)"
+            class="option-button"
+          >
+            {{o.description}}
+          </ion-button>
+        </div>
+
+        <!-- Answer explanation when answered incorrectly -->
+        <div *ngIf="resposta == 'false' && end == false" class="answer-container">
+          <div class="disabled-options">
+            <ion-button 
+              *ngFor="let o of current_q.options" 
+              expand="block" 
+              [disabled]="true"
+              class="option-button disabled"
+            >
+              {{o.description}}
+            </ion-button>
+          </div>
+          
+          <div class="explanation-section">
+            <p *ngFor="let a of current_q.answer" class="answer-text">
+              <strong>Resposta:</strong> {{obterTextoResposta(a)}}
+            </p>
+            <p *ngFor="let c of current_q.comments" class="explanation-text">
+              <strong>Explicação:</strong> {{c}}
+            </p>
+            <p *ngFor="let s of current_q.sources" class="source-text">
+              <strong>Fonte:</strong> {{s.name}}
+            </p>
+          </div>
+        </div>
+
+        <!-- Completion message -->
+        <div *ngIf="end == true" class="completion-container">
+          <div class="completion-message">
+            <ion-icon name="checkmark-circle" class="completion-icon"></ion-icon>
+            <h2>Parabéns por concluir esse tema!</h2>
+          </div>
+        </div>
+      </ion-card>
+
+      <!-- Success message -->
+      <div *ngIf="resposta == 'true'" class="success-message">
+        <ion-icon name="checkmark-circle" class="success-icon"></ion-icon>
+        <p class="success-text">Parabéns, você acertou!</p>
+        <ion-button 
+          (click)="continuar()" 
+          expand="block"
+          class="primary-button"
+        >
+          Continuar
+        </ion-button>
       </div>
-    </ion-card>
-  <div *ngIf= "resposta == 'true'">
-    <p class = "comentarios" style = "text-align: center;">Parabéns, você acertou!</p>
-      <ion-button (click) = "continuar()" expand="block">
-        <p>Continuar</p>
-      </ion-button>
+
+      <!-- Continue button for wrong answers -->
+      <div *ngIf="resposta == 'false'" class="continue-container">
+        <ion-button 
+          (click)="continuar()" 
+          expand="block"
+          class="primary-button"
+        >
+          Continuar
+        </ion-button>
+      </div>
+
+      <!-- Back button -->
+      <div class="back-container">
+        <ion-button 
+          expand="block" 
+          routerLink="/menu"
+          class="secondary-button"
+        >
+          Voltar
+        </ion-button>
+      </div>
     </div>
-<div *ngIf= "resposta == 'false'">
-  <ion-button (click) = "continuar()" expand="block">
-    <p>Continuar</p>
-  </ion-button>
   </div>
-<ion-button expand = "block" routerLink = "/menu">Voltar</ion-button>
 </ion-content>
+

@@ -1,31 +1,184 @@
-ul.dp-menu{
-  list-style-type: none;
-  padding: 0;
+/* Modern Menu Page Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
 }
 
-ul.opcoes{
-  list-style-type: none;
-  padding: 0;
-  display: block;
-  transform: translate(0, -12px);
+.menu-section {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
 }
 
-ul.dp-menu ul.temas{
-  list-style-type: none;
-  padding: 0;
-  display: none;
-  left: 0;
+.tematicas-header {
+  margin-bottom: 32px;
 }
 
-ul.dp-menu:hover ul.temas{
-  display: block;
+.section-title {
+  color: var(--ion-color-primary);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-ion-text-wrap{
-  line-height: 100px;
+.section-subtitle {
+  color: var(--ion-color-medium);
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
 }
 
-.menu_button{
-  height: 45px;
-  line-height: 40px;
+.tematicas-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
 }
+.topic-button {
+  --background: white;
+  --color: var(--ion-color-primary);
+  --border-color: var(--ion-color-primary);
+  --border-width: 2px;
+  --border-style: solid;
+  --border-radius: 12px;
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --padding-top: 16px;
+  --padding-bottom: 16px;
+  --padding-start: 20px;
+  --padding-end: 20px;
+  height: auto;
+  min-height: 60px;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  margin-bottom: 12px;
+}
+
+.topic-button:hover {
+  --background: var(--ion-color-primary);
+  --color: white;
+  transform: translateY(-2px);
+  --box-shadow: 0 8px 24px rgba(37, 99, 235, 0.4);
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.button-text {
+  text-align: center;
+  line-height: 1.4;
+  font-size: 14px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.primary-button {
+  --background: var(--gradient-primary);
+  --color: white;
+  --border-radius: 8px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.primary-button:hover {
+  transform: translateY(-2px);
+  --box-shadow: 0 8px 24px rgba(37, 99, 235, 0.4);
+}
+
+.secondary-button {
+  --background: white;
+  --color: var(--ion-color-primary);
+  --border-color: var(--ion-color-primary);
+  --border-width: 2px;
+  --border-style: solid;
+  --border-radius: 8px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.secondary-button:hover {
+  --background: var(--ion-color-primary);
+  --color: white;
+  transform: translateY(-2px);
+  --box-shadow: 0 8px 24px rgba(37, 99, 235, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  
+  .menu-section {
+    max-width: 100%;
+  }
+  
+  .section-title {
+    font-size: 24px;
+  }
+  
+  .section-subtitle {
+    font-size: 14px;
+  }
+  
+  .tematica-button {
+    --padding-start: 16px;
+    --padding-end: 16px;
+    min-height: 70px;
+  }
+  
+  .button-text {
+    font-size: 13px;
+  }
+  
+  .action-buttons {
+    margin-top: 24px;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 12px;
+  }
+  
+  .section-title {
+    font-size: 22px;
+  }
+  
+  .tematicas-list {
+    gap: 10px;
+  }
+  
+  .tematica-button {
+    min-height: 80px;
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+  }
+  
+  .button-text {
+    font-size: 12px;
+  }
+}
+

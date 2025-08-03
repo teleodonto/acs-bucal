@@ -1,9 +1,71 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>resultados</ion-title>
+    <ion-title class="tittle">
+      <figure><img src="assets/icon/logo.png" class="logo fade-in" alt="ACS Bucal Logo" /></figure>
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="container slide-up">
+    <div class="results-section">
+      <div class="results-header">
+        <ion-icon name="trophy" class="results-icon"></ion-icon>
+        <h1 class="page-title">Meus Resultados</h1>
+        <p class="page-subtitle">Acompanhe seu progresso nas temáticas</p>
+      </div>
+      
+      <div class="results-content">
+        <div class="stats-card">
+          <div class="stat-item">
+            <div class="stat-number">{{totalTematicas}}</div>
+            <div class="stat-label">Temáticas Disponíveis</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">{{tematicasConcluidas}}</div>
+            <div class="stat-label">Temáticas Concluídas</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">{{progressoGeral}}%</div>
+            <div class="stat-label">Progresso Geral</div>
+          </div>
+        </div>
+        
+        <div class="progress-section">
+          <h3 class="section-title">Progresso por Temática</h3>
+          
+          <div class="progress-list">
+            <div class="progress-item" *ngFor="let tematica of tematicas">
+              <div class="progress-info">
+                <h4 class="progress-title">{{tematica.nome}}</h4>
+                <div class="progress-bar">
+                  <div class="progress-fill" [style.width.%]="tematica.progresso"></div>
+                </div>
+                <span class="progress-text">{{tematica.progresso}}% concluído</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="action-buttons">
+          <ion-button 
+            routerLink="/menu" 
+            expand="block" 
+            class="primary-button"
+          >
+            Continuar Estudando
+          </ion-button>
+          
+          <ion-button 
+            routerLink="/menu" 
+            expand="block" 
+            class="secondary-button"
+          >
+            Voltar ao Início
+          </ion-button>
+        </div>
+      </div>
+    </div>
+  </div>
 </ion-content>
+

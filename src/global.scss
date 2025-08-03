@@ -1,12 +1,6 @@
 /*
- * App Global CSS
+ * App Global CSS - Modernized Design
  * ----------------------------------------------------------------------------
- * Put style rules here that you want to apply globally. These styles are for
- * the entire app and not just one component. Additionally, this file can be
- * used as an entry point to import other CSS/Sass files to be included in the
- * output CSS.
- * For more information on global stylesheets, visit the documentation:
- * https://ionicframework.com/docs/layout/global-stylesheets
  */
 
 /* Core CSS required for Ionic components to work properly */
@@ -25,67 +19,333 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-
-ion-content{
-
-  --ion-background-color:var(--cor-fundo);
-    font-size: 1.2em;
-}
-
-img {
-  width: 500px;
-  height: auto;
-}
-
-input{border: 1px solid white; background: transparent;box-shadow: 0px;border-radius: 10px; text-align: center;}
-
-input::placeholder{color : white; text-align: left;}
-
-
-ion-button{
-  --border-radius: 0%;
-  --background:var(--cor-elementos);
-  color: white;
-  text-align: center;
-  text-transform: none;
-
-}
-
+/* Modern Color Palette */
 :root{
-  --cor-elementos: #FF9933;
-  --cor-fundo: rgb(20, 69, 128);
-  --cor-hover: rgb(213, 138, 84);
+  --cor-primary: #2563eb;
+  --cor-primary-dark: #1d4ed8;
+  --cor-secondary: #f59e0b;
+  --cor-secondary-dark: #d97706;
+  --cor-background: #f8fafc;
+  --cor-surface: #ffffff;
+  --cor-text: #1e293b;
+  --cor-text-light: #64748b;
+  --cor-success: #10b981;
+  --cor-error: #ef4444;
+  --cor-warning: #f59e0b;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  --gradient-secondary: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
-ion-select::placeholder{
---color:white;
---text-align: center;}
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
 
-.tittle{
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--cor-text);
+}
+
+ion-content {
+  --ion-background-color: var(--cor-background);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Logo Styling */
+img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo {
+  width: 280px;
+  max-width: 90vw;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Modern Input Styling */
+input {
+  border: 2px solid #e2e8f0;
+  background: var(--cor-surface);
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 16px;
+  display: block;
+  color: var(--cor-text);
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--cor-primary);
+  box-shadow: 0 0 0 3px rgb(37 99 235 / 0.1);
+  transform: translateY(-2px);
+}
+
+input::placeholder {
+  color: var(--cor-text-light);
+  font-weight: 400;
+}
+
+/* Modern Button Styling */
+ion-button {
+  --border-radius: 12px;
+  --background: var(--gradient-primary);
+  --color: white;
+  --padding-start: 24px;
+  --padding-end: 24px;
+  --padding-top: 16px;
+  --padding-bottom: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: none;
+  letter-spacing: 0.025em;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-md);
+  margin: 8px;
+  min-height: 48px;
+}
+
+ion-button:hover {
+  --background: var(--cor-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+ion-button:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Secondary Button */
+ion-button.secondary {
+  --background: var(--gradient-secondary);
+}
+
+ion-button.secondary:hover {
+  --background: var(--cor-secondary-dark);
+}
+
+/* Outline Button */
+ion-button.outline {
+  --background: transparent;
+  --color: var(--cor-primary);
+  --border-width: 2px;
+  --border-color: var(--cor-primary);
+  box-shadow: none;
+}
+
+ion-button.outline:hover {
+  --background: var(--cor-primary);
+  --color: white;
+}
+
+/* Header Styling */
+ion-header {
+  box-shadow: var(--shadow-sm);
+}
+
+ion-toolbar {
+  --background: var(--cor-surface);
+  --color: var(--cor-text);
+  --border-width: 0;
+  padding: 8px 0;
+}
+
+.tittle {
   text-align: center;
+  padding: 16px 0;
 }
 
-.login_{
-      color: white;
-      text-align: center;}
-
-.comentarios{
-  color: white;
+/* Text Styling */
+.login_ {
+  color: var(--cor-text);
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 24px 0;
 }
 
-.menu_button{
-  height: 45px;
+.comentarios {
+  color: var(--cor-text-light);
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 16px;
+  background: var(--cor-surface);
+  border-radius: 12px;
+  margin: 16px 0;
+  box-shadow: var(--shadow-sm);
 }
 
-ion-text-wrap{
-  --line-height: 45px;
+/* Menu Button Styling */
+.menu_button {
+  min-height: 56px;
+  margin: 8px 0;
+  --background: var(--cor-surface);
+  --color: var(--cor-text);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid #e2e8f0;
 }
 
-/*:root{--ion-font-family: 'Bungee Spice', cursive;}
+.menu_button:hover {
+  --background: #f1f5f9;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
 
-:root{--ion-toolbar-background: white;
---ion-toolbar-color: white;
---ion-background-color: linear-gradient (0deg, blue 0%, white 100%);
+/* Card Styling */
+ion-card {
+  border-radius: 16px;
+  box-shadow: var(--shadow-md);
+  border: none;
+  margin: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
 
-}*/
+ion-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+/* Checkbox Styling */
+ion-checkbox {
+  --size: 20px;
+  --checkbox-background-checked: var(--cor-primary);
+  --border-radius: 6px;
+  --border-width: 2px;
+  --border-color: #e2e8f0;
+  margin-right: 12px;
+}
+
+/* List Styling */
+.dp-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.temas {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+  display: block !important;
+}
+
+.temas li {
+  margin: 8px 0;
+}
+
+.opcoes {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.opcoes li {
+  margin: 12px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .logo {
+    width: 240px;
+  }
+  
+  input {
+    max-width: 90vw;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
+  ion-button {
+    --padding-start: 20px;
+    --padding-end: 20px;
+    font-size: 15px;
+  }
+  
+  .login_ {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 200px;
+  }
+  
+  ion-card {
+    margin: 8px;
+  }
+  
+  .menu_button {
+    min-height: 48px;
+    font-size: 14px;
+  }
+}
+
+/* Animation Classes */
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.slide-up {
+  animation: slideUp 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Success/Error States */
+.success {
+  color: var(--cor-success);
+  background: rgb(16 185 129 / 0.1);
+  border: 1px solid rgb(16 185 129 / 0.2);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+.error {
+  color: var(--cor-error);
+  background: rgb(239 68 68 / 0.1);
+  border: 1px solid rgb(239 68 68 / 0.2);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
 
