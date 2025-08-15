@@ -172,7 +172,7 @@
 	},
 	{
 		"question": [
-			"São diretrizes da Estratégia Saúde da Família, excerto"
+			"São diretrizes da Estratégia Saúde da Família, exceto"
 		],
 		"options":[
 {"description" : "População adscrita", "isright": false},
@@ -540,7 +540,7 @@
 "Tematica_7" : [
   {
     "question": [
-      "O Pré-natal odontológico deve incluir, excerto: "
+      "O Pré-natal odontológico deve incluir, exceto: "
     ],
     "options":[
 {"description" : "Orientações sobre hábitos alimentares", "isright": false},
