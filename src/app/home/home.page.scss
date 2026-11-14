@@ -87,3 +87,32 @@
   }
 }
 
+
+/* Aceite do termo (LGPD, 2026-11) */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin: 24px 0 0;
+  padding: 16px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.terms-checkbox {
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.terms-label {
+  color: #1f2937;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.terms-link {
+  color: var(--ion-color-primary);
+  text-decoration: underline;
+  font-weight: 600;
+}

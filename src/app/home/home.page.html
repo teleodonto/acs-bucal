@@ -10,7 +10,20 @@
   <div class="container slide-up">
     <div class="login-section">
       <h1 class="login_">LOGIN</h1>
-      
+
+      <div class="checkbox-group">
+        <ion-checkbox
+          [checked]="aceite"
+          (ionChange)="marcarAceite($event)"
+          class="terms-checkbox"
+        ></ion-checkbox>
+        <label class="terms-label">
+          Li e aceito os
+          <a href="/termo" (click)="abrirTermo($event)" class="terms-link">Termos de Uso e a Política de Privacidade</a>
+          do ACS Bucal.
+        </label>
+      </div>
+
       <div class="input-container">
         <input
           class="input_cpf"
@@ -28,9 +41,9 @@
           expand="block" 
           (click)="entrar()" 
           class="primary-button"
-          [disabled]="!cpf || cpf.length < 11"
+          [disabled]="!aceite || !cpf || cpf.length < 11"
         >
-          Entrar
+          Acessar
         </ion-button>
         
           <ion-button 

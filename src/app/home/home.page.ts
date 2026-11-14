@@ -24,6 +24,9 @@ import { Router } from '@angular/router';
 export class HomePage {
   public loginform: FormGroup;
   private cpf_value: any[] = [];
+  public cpf = '';
+  // Aceite do termo (LGPD): começa desmarcado e libera o botão "Acessar".
+  public aceite = false;
 
   constructor(private storage: Storage, public form: FormBuilder, private router: Router) {
     this.loginform = this.form.group(
@@ -32,6 +35,17 @@ export class HomePage {
       });
   }
 NgOnInit(){
+}
+
+// ngModel não atualiza o ion-checkbox neste projeto (mesmo caso do cadastro).
+marcarAceite(event: any){
+  this.aceite = !!(event?.detail?.checked);
+}
+
+abrirTermo(event: Event){
+  event.preventDefault();
+  event.stopPropagation();
+  this.router.navigateByUrl('/termo');
 }
 
 entrar(){
